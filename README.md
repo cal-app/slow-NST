@@ -4,7 +4,7 @@ An implementation of Neural Style Transfer (NST) following the works of Gatys et
 
 Neural Style Transfer is a way to generate interesting artwork using a pre-trained convolutional neural network (VGG19 in this case). It does so by extracting the style of one image, and applying it to the content of another image. 
 
-[example]
+![Example](https://i.imgur.com/XToUxdm.png)
 
 Fundamentally, NST is an optimization procedure that iteratively modifies an image in order to minimize a two-part cost function. Schematically, starting from a noisy image, it will modify this image's pixel values in order to minimize a cost function that encompasses how well it captures the style of the style image, and the content of the content image.
 
